@@ -45,7 +45,9 @@ flowchart LR
 
 The script lives in the
 [AATGRegistration](https://github.com/it-gssb/AATGRegistration) repository.
-Running it needs some technical setup. Ask the IT team.
+Running it needs some technical setup. See
+[IT scripts: AATGRegistration](../it-scripts/aatg-registration.md), or ask
+the IT team.
 
 !!! danger "The student spreadsheet is personal data"
 

@@ -11,6 +11,8 @@ done it before.
   problems, like a projector that shows nothing.
 - **[AATG](aatg/index.md)**: registering students for the National German
   Exam.
+- **[IT scripts](it-scripts/index.md)**: what each repo in the
+  [it-gssb](https://github.com/it-gssb) organization does, and how to run it.
 - **[Templates & examples](templates/index.md)**: copy-and-fill starting
   points for new pages, plus examples of the formatting you can use.
 

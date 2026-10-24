@@ -10,8 +10,9 @@ MkDocs Material docs site → https://it-gssb.github.io/ (GitHub Pages, deployed
 ## Layout
 - `docs/`: Markdown pages. `mkdocs.yml`: config + explicit `nav`.
 - New page → add it to `nav` in the same change.
-- Sections: `common-issues/` (fixes), `aatg/` (AATG exam registration), `templates/` (copyable templates + examples for non-engineers).
+- Sections: `common-issues/` (fixes), `aatg/` (AATG exam registration), `it-scripts/` (one page per it-gssb org repo, for engineers), `templates/` (copyable templates + examples for non-engineers).
 - Common issues follow `templates/common-issue-template.md`: Symptoms, Quick fixes, Step-by-step fix, Still not working?, Owner, Last verified.
+- Repo pages (`it-scripts/`): repo link + summary, then as relevant: Purpose, What's in it, Prerequisites, How to run, Useful context; always Owner, Last verified. Windows commands; `<placeholders>` for IDs/tokens/passwords. New org repo → add page + row in `it-scripts/index.md`.
 - How-tos follow `templates/how-to-template.md`: Purpose, Prerequisites, Steps, Troubleshooting, Owner, Last verified.
 - `docs/templates/` is excluded by MkDocs by default; `exclude_docs: !/templates/` re-includes it. Keep it.
 - Audience uses Windows only. Write Windows steps; no Mac/Linux tabs.
