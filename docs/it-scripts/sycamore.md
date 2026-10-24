@@ -6,6 +6,10 @@ reshape it for other systems, plus PowerShell scripts that sync student
 accounts into Microsoft Entra ID. This is the most active repo and the
 starting point for most yearly IT tasks.
 
+**When:** summer (registration sheet for acceptance letters), late
+August (Entra sync and SDS before the first day), and again whenever
+enrollment changes. See the [yearly calendar](../about-gssb.md#the-school-year-and-its-part-in-it).
+
 ## Purpose
 
 - **Microsoft SDS**: generate the CSV files that School Data Sync imports

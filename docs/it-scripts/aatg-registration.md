@@ -6,6 +6,9 @@ the test provider for the AATG National German Exam. Lingco has no bulk
 upload, so the script calls Lingco's sign-up endpoint once per row.
 Process: [AATG exam registration](../aatg/index.md).
 
+**When:** October–November, before the January exam days. **Who:** IT,
+with the Principal *(inferred)*. In 2026/27 the exam covers grades 6–10.
+
 ## What's in it
 
 | Path | What it is |

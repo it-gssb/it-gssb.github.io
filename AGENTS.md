@@ -10,6 +10,7 @@ MkDocs Material docs site → https://it-gssb.github.io/ (GitHub Pages, deployed
 ## Layout
 - `docs/`: Markdown pages. `mkdocs.yml`: config + explicit `nav`.
 - New page → add it to `nav` in the same change.
+- `about-gssb.md`: org context, roles (never personal names), yearly calendar, glossary. Mark guesses *(inferred)*.
 - Sections: `common-issues/` (fixes), `aatg/` (AATG exam registration), `it-scripts/` (one page per it-gssb org repo, for engineers), `templates/` (copyable templates + examples for non-engineers).
 - Common issues follow `templates/common-issue-template.md`: Symptoms, Quick fixes, Step-by-step fix, Still not working?, Owner, Last verified.
 - Repo pages (`it-scripts/`): repo link + summary, then as relevant: Purpose, What's in it, Prerequisites, How to run, Useful context; always Owner, Last verified. Windows commands; `<placeholders>` for IDs/tokens/passwords. New org repo → add page + row in `it-scripts/index.md`.

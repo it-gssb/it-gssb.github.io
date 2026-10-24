@@ -14,12 +14,17 @@ for, when it gets used, and how to run it.
 
 ## Background
 
+New to GSSB? Read [About GSSB](../about-gssb.md) first. It has the roles,
+the school-year calendar, and a glossary.
+
 - **Sycamore** ([sycamoreschool.com](https://www.sycamoreschool.com/)) is
   GSSB's school information system and the source of truth for families,
   students, classes, teachers, and billing.
 - **Microsoft 365 / Entra ID** hosts the `student.gssb.org` student accounts.
   **Microsoft School Data Sync (SDS)** turns Sycamore class lists into Teams
   classes.
+- The **IT / Registrar** member of the School Committee owns these
+  scripts (`it@gssb.org`).
 - The **AATG** National German Exam happens once a year. See
   [AATG exam registration](../aatg/index.md).
 
@@ -27,10 +32,10 @@ for, when it gets used, and how to run it.
 
 | Repo | Language | Used for | When | Activity |
 | :--- | :------- | :------- | :--- | :------- |
-| [sycamore](sycamore.md) | Python, PowerShell | Exporting Sycamore data for SDS, Entra accounts, registration lists, AATG | Start of year, then whenever enrollment changes | Active (2026) |
-| [pdffiller](pdffiller.md) | Java | Filling PDF forms from a spreadsheet and emailing them in bulk (AATG certificates, enrollment letters) | When results or letters go out | Stable (2025) |
-| [accounting](accounting.md) | Java | Posting tuition charges to Sycamore family accounts and creating invoices | Once a year, at invoicing time | Stable (2025) |
-| [AATGRegistration](aatg-registration.md) | Python | Creating students' exam accounts with the test provider (Lingco) in bulk | Once a year, before the exam | Dormant (2023) |
+| [sycamore](sycamore.md) | Python, PowerShell | Exporting Sycamore data for SDS, Entra accounts, registration lists, AATG | Summer and start of year, then whenever enrollment changes | Active (2026) |
+| [pdffiller](pdffiller.md) | Java | Filling PDF forms from a spreadsheet and emailing them in bulk (AATG certificates, enrollment letters) | Acceptance letters (summer), AATG certificates (spring) | Stable (2025) |
+| [accounting](accounting.md) | Java | Posting tuition charges to Sycamore family accounts and creating invoices | Once a year, after registration (spring) | Stable (2025) |
+| [AATGRegistration](aatg-registration.md) | Python | Creating students' exam accounts with the test provider (Lingco) in bulk | Once a year, before the January exam | Dormant (2023) |
 | [it-gssb.github.io](https://github.com/it-gssb/it-gssb.github.io) | Markdown | This site | Any time | Active |
 
 ## How they fit together

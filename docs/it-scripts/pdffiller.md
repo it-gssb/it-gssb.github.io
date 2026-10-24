@@ -5,6 +5,10 @@ A Java command-line tool for bulk mail merge. For each row of an Excel
 sheet it fills one or more PDF forms, can encrypt the results, and emails
 them to the addresses in that row.
 
+**When:** summer (acceptance letters with class and parent-helper
+assignments) and spring (AATG certificates). See the
+[yearly calendar](../about-gssb.md#the-school-year-and-its-part-in-it).
+
 ## Purpose
 
 - **AATG results**: send each family their child's raw-score sheet and the
