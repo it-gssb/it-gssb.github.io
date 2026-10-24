@@ -1,0 +1,71 @@
+site_name: GSSB IT Docs
+site_url: https://it-gssb.github.io/
+site_description: IT documentation and runbooks for GSSB volunteers.
+
+repo_name: it-gssb/it-gssb.github.io
+repo_url: https://github.com/it-gssb/it-gssb.github.io
+# Makes the "Edit this page" button open the file on main in GitHub's editor.
+edit_uri: edit/main/docs/
+
+# MkDocs skips docs/templates/ by default; publish our page template anyway.
+exclude_docs: |
+  !/templates/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+nav:
+  - Home: index.md
+  - Runbooks:
+      - Sample runbook: runbooks/sample-runbook.md
+  - Templates:
+      - Page template: templates/page-template.md

@@ -1,0 +1,5 @@
+# Build dependencies for the docs site (used by GitHub Actions).
+# mkdocs-material is in maintenance mode (EOL 2027-05-05); its successor is Zensical.
+# mkdocs is capped below 2.0, which mkdocs-material does not support.
+mkdocs-material==9.8.0
+mkdocs>=1.6.1,<2
