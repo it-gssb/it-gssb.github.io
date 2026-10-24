@@ -70,6 +70,12 @@ nav:
       - Printer: common-issues/printer.md
   - AATG:
       - Exam registration: aatg/index.md
+  - IT scripts:
+      - it-scripts/index.md
+      - sycamore: it-scripts/sycamore.md
+      - pdffiller: it-scripts/pdffiller.md
+      - accounting: it-scripts/accounting.md
+      - AATGRegistration: it-scripts/aatg-registration.md
   - Templates & examples:
       - templates/index.md
       - Common issue template: templates/common-issue-template.md
