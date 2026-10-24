@@ -31,8 +31,41 @@ by hand.
   `ChargeType`, and `sk.family_codes = <comma list>` for the families that
   get the committee credit.
 - A CSV with the columns `FamilyCode`, `FamilyID`, `ParentHelperChoice1`,
-  and `ApplicationGradeCode`, one row per student.
-  <!-- TODO: document which Sycamore report or script produces this CSV. -->
+  and `ApplicationGradeCode`, one row per student. Other columns are
+  ignored. *(Inferred: these look like a Sycamore admissions/applications
+  export. No script in the org produces them.)*
+  <!-- TODO: confirm which Sycamore report produces this CSV. -->
+
+## Billing rules (as coded)
+
+For each family, `Account.calculateCharges`:
+
+1. Reads the family's students' grades from `ApplicationGradeCode`:
+   `-1` is preschool, `0` kindergarten, `1`–`11` grades, and `12` means
+   "10th, no DSD 2". This matches the [sycamore grade map](sycamore.md#how-the-code-works).
+   Grade 12 is **charged as grade 8**. The grades are then sorted from
+   lowest to highest.
+2. Adds the registration fee (`RegFe`) once.
+3. Adds tuition per student. The **first (lowest-grade)** student gets the
+   1st-child rate and the others get the 2nd/3rd-child rate. Grade 11
+   (DSD II, second year) gets the half-year rates (`_1stDS`, `_2_3DS`).
+4. Adds supplements: preschool and kindergarten (`PreKF`), 1st grade
+   (`_1grad`), and grades 9–11 (`DSDSp`).
+5. Adds a parent-helper credit if `ParentHelperChoice1` isn't empty and
+   isn't `Non Participation`. It's the full credit (`PCFul`), or the half
+   credit (`PCHal`) if the first student is in grade 11.
+6. Adds the committee credit (`SK100`) if the family code is in
+   `sk.family_codes`.
+
+`WebCharger` then opens `familycharge.php?fid=<FamilyID>`, sets the
+account to `1 : Registration`, and adds the charges:
+
+- The first 5 charge types are picked from Sycamore's charge-code
+  dropdown by label. **The labels in `ChargeType.java` must match the
+  Sycamore charge codes exactly.**
+- Any further charges become free-text lines, using the amount from the
+  config.
+- Finally it submits the form, unless `-s` is set.
 
 ## Prerequisites
 

@@ -22,6 +22,21 @@ The input sheet comes from [sycamore](sycamore.md)
 `ExtractForRegistration.py`, which already has the `StudentGSSBEmail` and
 `LingcoPwd` columns. Filter it down to the students taking the exam.
 
+## How the code works
+
+- It calls Lingco's public **student sign-up** API, the same one their web
+  form uses. It doesn't use an admin or bulk API, and needs no login.
+- At startup it fetches Lingco's "organization not found" placeholder
+  (`/api/organizations/not_found`). Students are registered under it, with
+  `missing_school_url` set to `--schoolURL`. In other words, GSSB doesn't
+  exist in Lingco as an organization. Teachers link students to classes
+  separately *(inferred)*.
+- Each student gets `language: de`, `account_type: student`, and an empty
+  instructor and course code.
+- Lingco emails each student a confirmation link at their
+  `student.gssb.org` address. Students have to click it before exam day
+  (see the [AATG page](../aatg/index.md)).
+
 ## How to run
 
 ```powershell

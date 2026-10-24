@@ -125,6 +125,58 @@ Run each script **from its own folder**: the scripts import `lib` through
 
 Both scripts dry-run first. Then run them again with `-dryRun 0`.
 
+## How the code works
+
+- **`SycamoreRest.Extract`** sends GETs to
+  `https://app.sycamoreschool.com/api/v1` with a bearer token. It retries
+  up to 10 times with back-off on HTTP 500, and treats 204 as "no data".
+- **`SycamoreCache.Cache`** defines the entities, each a URL template that
+  may iterate over a parent entity: `school`, `families`,
+  `family_contacts`, `family_details`, `family_students`, `students`,
+  `student_classes`, `student_details`, `student_custom_fields`,
+  `contacts`, `classes`, `class_details`, `class_students`, `employees`,
+  `years`, and `years_details`. Each entity is stored as a pandas DataFrame
+  and pickled into `--cache`. Per-entity calls (one or more per family,
+  student, and class) are why a full reload is slow.
+- **`Generators`** holds the GSSB-specific rules. Change behavior here,
+  not in the individual scripts.
+    - Email: `First.Last@student.gssb.org`. Spaces and quotes are dropped
+      from the first name. In the last name, umlauts become `ae`, `oe`,
+      `ue`, and `ss`; particles such as `von `, `van `, `de `, and `zu ` are
+      joined; any other spaces become `-`.
+    - Grade map: Sycamore grade names become SDS grades. `9th - DSD 1`
+      maps to 9, `10th - DSD 2 y1` to 10, `11th - DSD 2 y2` to 11, and
+      `10th (no DSD 2)` to **12**. accounting relies on this mapping.
+    - The adult classes (`Beginner's Class`, `Conversation Class German`)
+      get period `Adlt`. Everything else gets `GP`.
+    - The parent/guardian role mapping and E.164 phone formatting are here
+      too.
+- The current school year is the Sycamore year flagged `Current`. SDS
+  sessions and courses use it.
+- The registration sheet reads the student custom fields `PhotoRelease`,
+  `Permission for Nikolaus`, `Allergies`, and `IEP or 504 in regular
+  school`, plus the family custom fields `Parent Participation <YYYY/YY>`
+  and `<YYYY/YY> Complementary`. **The family field names include the
+  school year, so update them every year.**
+
+## Known issues
+
+- [#32](https://github.com/it-gssb/sycamore/issues/32): renaming a
+  student in Sycamore makes `create-students.ps1` create a duplicate Entra
+  account, which then clashes on SIS ID during the SDS import. Until it's
+  fixed, rename the existing Entra account by hand before you sync.
+- Open PR [#29](https://github.com/it-gssb/sycamore/pull/29): fixes how
+  the current year is found when the API returns `Current` as a number.
+  Apply it if the SDS export can't find a current year.
+- Open PR [#30](https://github.com/it-gssb/sycamore/pull/30): a
+  temporary workaround that skips the `class_details` endpoint (made
+  August–September 2026, when it was failing). With it, every row's Room
+  column becomes `TBD`. Check whether the endpoint works before you merge it.
+- Open Dependabot PR [#27](https://github.com/it-gssb/sycamore/pull/27):
+  urllib3 security update.
+- `ExtractFromSycamoreToSDSClever.py` (legacy) contains a hard-coded
+  teacher password. Don't use it, and treat that password as public.
+
 ## Useful context
 
 - [Repo README](https://github.com/it-gssb/sycamore#readme) and

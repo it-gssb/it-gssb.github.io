@@ -69,6 +69,27 @@ output).
     Keep the email password and master key out of `.properties` files.
     Pass them only with `-p` and `-m`.
 
+## How it fits with the other repos
+
+The spreadsheet columns are the interface. Use the column names from
+`sycamore`'s `ExtractForRegistration.py` in your config and templates:
+
+| Config key | Typical value |
+| :--------- | :------------ |
+| `excel.target_email_columns` | `PrimaryParentEmail, SecondaryParentEmail` |
+| `excel.group_columns` | `FamilyCode, ...`, so each family gets one email. The first column is the grouping key. |
+| Mustache fields | `{{StudentFirstName}}`, `{{Class}}`, `{{Room}}`, `{{TeacherName}}`, `{{ParentNames}}`, and so on |
+| `-g` restart value | A `FamilyCode`. Emails go out sorted by it. |
+
+For AATG certificates, the sheet also needs `Award` (to pick the
+certificate), `Level`, and a key column for encryption. The sample config
+uses `Name`, `LehrerIn` (teacher), and `Schule` (school). Rename the
+columns, or change the `mappings.*` lines to match.
+
+Sending needs an SMTP account for a GSSB sender address, with its host,
+port, and address in the config. Ask IT which account to use. The
+password goes only on the command line.
+
 ## Useful context
 
 - [README user guide](https://github.com/it-gssb/pdffiller#readme)
