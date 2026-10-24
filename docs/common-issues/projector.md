@@ -18,17 +18,8 @@
    remote until it matches the cable you're using (for example *HDMI 1*).
 2. **Check the cable.** Make sure both ends are pushed in fully. If the
    laptop needs an adapter (USB-C to HDMI), check that too.
-3. **Tell the laptop to use the projector:**
-
-    === "Windows"
-
-        Press the **Windows key + P** and choose **Duplicate**.
-
-    === "Mac"
-
-        Open **Apple menu → System Settings → Displays**. If the projector
-        isn't listed, unplug and replug the cable.
-
+3. **Tell the laptop to use the projector.** Press the **Windows key + P**
+   and choose **Duplicate**.
 4. **Restart the projector.** Turn it off, wait until the fan stops
    (about a minute), then turn it on again.
 
