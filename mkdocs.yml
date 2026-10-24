@@ -1,6 +1,6 @@
 site_name: GSSB IT Docs
 site_url: https://it-gssb.github.io/
-site_description: IT documentation and runbooks for GSSB volunteers.
+site_description: IT documentation and how-to guides for GSSB volunteers.
 
 repo_name: it-gssb/it-gssb.github.io
 repo_url: https://github.com/it-gssb/it-gssb.github.io
@@ -65,7 +65,12 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Runbooks:
-      - Sample runbook: runbooks/sample-runbook.md
-  - Templates:
-      - Page template: templates/page-template.md
+  - Common issues:
+      - Projector: common-issues/projector.md
+  - AATG:
+      - Exam registration: aatg/index.md
+  - Templates & examples:
+      - templates/index.md
+      - Common issue template: templates/common-issue-template.md
+      - How-to template: templates/how-to-template.md
+      - Formatting examples: templates/formatting-examples.md

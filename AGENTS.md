@@ -10,8 +10,11 @@ MkDocs Material docs site → https://it-gssb.github.io/ (GitHub Pages, deployed
 ## Layout
 - `docs/`: Markdown pages. `mkdocs.yml`: config + explicit `nav`.
 - New page → add it to `nav` in the same change.
-- Runbooks follow `docs/templates/page-template.md`: Purpose, Prerequisites, Steps, Troubleshooting, Owner, Last verified.
+- Sections: `common-issues/` (fixes), `aatg/` (AATG exam registration), `templates/` (copyable templates + examples for non-engineers).
+- Common issues follow `templates/common-issue-template.md`: Symptoms, Quick fixes, Step-by-step fix, Still not working?, Owner, Last verified.
+- How-tos follow `templates/how-to-template.md`: Purpose, Prerequisites, Steps, Troubleshooting, Owner, Last verified.
 - `docs/templates/` is excluded by MkDocs by default; `exclude_docs: !/templates/` re-includes it. Keep it.
+- Only enabled markdown extensions work (see `mkdocs.yml`); e.g. no `pymdownx.keys`.
 
 ## Build
 ```sh

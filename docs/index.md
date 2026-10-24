@@ -1,15 +1,18 @@
 # GSSB IT Docs
 
-Welcome! This site collects how-to guides and runbooks for the people who
+Welcome! This site collects how-to guides and fixes for the people who
 look after IT at GSSB. The goal is simple: anyone should be able to pick up
 a task by following a written, tested procedure, even if they have never
 done it before.
 
 ## What you'll find here
 
-- **[Runbooks](runbooks/sample-runbook.md)**: step-by-step procedures for
-  recurring tasks.
-- **[Templates](templates/page-template.md)**: a starting point for new pages.
+- **[Common issues](common-issues/projector.md)**: quick fixes for everyday
+  problems, like a projector that shows nothing.
+- **[AATG](aatg/index.md)**: registering students for the National German
+  Exam.
+- **[Templates & examples](templates/index.md)**: copy-and-fill starting
+  points for new pages, plus examples of the formatting you can use.
 
 ## The one rule: nothing sensitive, ever
 
@@ -46,6 +49,7 @@ You don't need to install anything. Everything happens on GitHub:
 5. Once your pull request is reviewed and merged, the live site updates
    within a few minutes.
 
-To add a **new page**, copy the [page template](templates/page-template.md)
-into the right folder under `docs/`, fill it in, and add it to the `nav`
-section of `mkdocs.yml` in the same pull request.
+To add a **new page**, pick a template from
+[Templates & examples](templates/index.md), copy it into the right folder
+under `docs/`, fill it in, and add it to the `nav` section of `mkdocs.yml`
+in the same pull request.
