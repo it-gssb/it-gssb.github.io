@@ -6,6 +6,10 @@ out each family's charges from a CSV, then drives Firefox (Selenium) to
 enter the charges in Sycamore and create the invoice. Sycamore's API can't
 post charges, so the tool fills in the web pages instead.
 
+**When:** once a year, after registration closes (spring). Each family
+gets one invoice, payable within 2 weeks. **Who:** IT, together with the
+Treasurer (`finance@gssb.org`) and the Controller (`accounting@gssb.org`).
+
 ## Purpose
 
 Yearly tuition invoicing. It replaces entering the charges for each family

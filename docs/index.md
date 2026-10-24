@@ -7,6 +7,8 @@ done it before.
 
 ## What you'll find here
 
+- **[About GSSB](about-gssb.md)**: new here? Start with this. It covers
+  who runs what, the school year, and a glossary.
 - **[Common issues](common-issues/projector.md)**: quick fixes for everyday
   problems, like a projector that shows nothing.
 - **[AATG](aatg/index.md)**: registering students for the National German
