@@ -26,16 +26,17 @@ What this procedure achieves and when to use it.
 3. How to confirm it worked.
 
 <!--
-Optional: for steps that differ by operating system, use tabs.
+Assume everyone uses Windows. Write Windows steps only.
+Optional: to show two ways of doing the same thing, use tabs.
 Each tab's content must be indented with 4 spaces.
 
-=== "Windows"
+=== "Settings app"
 
-    Windows steps here.
+    Steps using the Settings app here.
 
-=== "Mac"
+=== "PowerShell"
 
-    Mac steps here.
+    Steps using PowerShell here.
 -->
 
 ## Troubleshooting

@@ -40,28 +40,18 @@ flowchart LR
 1. Confirm the laptop is on the school Wi-Fi.
 2. Add the printer:
 
-    === "Windows"
+    === "Settings app"
 
         1. Open **Start → Settings → Bluetooth & devices → Printers & scanners**.
         2. Click **Add device** and wait for the printer to appear.
         3. Select the printer and click **Add device**.
 
-        To check from the command line, open **PowerShell** and run:
+    === "PowerShell"
+
+        To check the printer was added, open **PowerShell** and run:
 
         ```powershell
         Get-Printer | Select-Object Name, PrinterStatus
-        ```
-
-    === "Mac"
-
-        1. Open **Apple menu → System Settings → Printers & Scanners**.
-        2. Click **Add Printer, Scanner or Fax…**.
-        3. Select the printer from the list and click **Add**.
-
-        To check from the command line, open **Terminal** and run:
-
-        ```bash
-        lpstat -p
         ```
 
 3. Print a test page and confirm it comes out of the right printer.

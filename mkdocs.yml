@@ -67,6 +67,7 @@ nav:
   - Home: index.md
   - Common issues:
       - Projector: common-issues/projector.md
+      - Printer: common-issues/printer.md
   - AATG:
       - Exam registration: aatg/index.md
   - Templates & examples:
