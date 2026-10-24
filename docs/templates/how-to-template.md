@@ -1,8 +1,8 @@
-# Title: what this runbook does
+# Title: what this page helps you do
 
 <!--
-How to use this template:
-1. Copy this file into the right folder under docs/ (for example docs/runbooks/)
+How-to template. Use it for step-by-step tasks ("Set up…", "Add…", "Reset…").
+1. Copy this file into the right folder under docs/ (for example docs/aatg/)
    and give it a short, lowercase name with hyphens, like reset-wifi.md.
 2. Replace every placeholder below. Delete these comments when done.
 3. Add the new page to the `nav` section in mkdocs.yml.

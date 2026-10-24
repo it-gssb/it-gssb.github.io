@@ -1,10 +1,12 @@
-# Sample runbook: Connect a laptop to the classroom printer
+# Formatting examples: Connect a laptop to the classroom printer
 
 !!! info "This is an example"
 
-    This page shows the standard runbook structure and the formatting features
-    available on this site (admonitions, tabs, code blocks, diagrams). Copy the
-    [page template](../templates/page-template.md) to start your own.
+    This page is a filled-in [how-to](how-to-template.md) that shows the
+    formatting available on this site: boxes like this one (admonitions), tabs,
+    code blocks, diagrams, and fold-out questions. Click **Edit this page**
+    (:material-file-edit-outline:) to see how each one is written, then copy
+    what you need.
 
 ## Purpose
 

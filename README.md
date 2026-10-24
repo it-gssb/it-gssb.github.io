@@ -19,5 +19,5 @@ rebuilds and redeploys the site automatically via GitHub Actions.
 4. Open the pull request. Once it is reviewed and merged into `main`, the site
    updates within a few minutes.
 
-To add a new page, copy `docs/templates/page-template.md` to the right folder,
+To add a new page, copy a template from `docs/templates/` to the right folder,
 fill it in, and add it to the `nav` section of `mkdocs.yml` in the same PR.
