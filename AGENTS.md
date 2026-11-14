@@ -4,6 +4,7 @@ MkDocs Material docs site → https://it-gssb.github.io/ (GitHub Pages, deployed
 
 ## Hard rules
 - Repo and site are PUBLIC, history included. Never add secrets, passwords, keys, internal IPs/serials, or personal data about students, parents, or staff. Reference where a secret is stored, never its value.
+- Exception: "Last verified" names the person who verified (`YYYY-MM-DD, by <first name>`), with their consent. Their own name only; no other personal data.
 - Maintainers edit via the GitHub web UI + PR. Never require a local build to update a page.
 - AGENTS.md must be correct at all times, and must use terse language
 

@@ -44,4 +44,4 @@ Who keeps this page up to date (a team or role).
 
 ## Last verified
 
-YYYY-MM-DD, by *team or role*.
+YYYY-MM-DD, by *your first name*.
