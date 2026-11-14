@@ -16,6 +16,7 @@ MkDocs Material docs site → https://it-gssb.github.io/ (GitHub Pages, deployed
 - Repo pages (`it-scripts/`): repo link + summary, then as relevant: Purpose, What's in it, Prerequisites, How to run, Useful context; always Owner, Last verified. Windows commands; `<placeholders>` for IDs/tokens/passwords. New org repo → add page + row in `it-scripts/index.md`.
 - How-tos follow `templates/how-to-template.md`: Purpose, Prerequisites, Steps, Troubleshooting, Owner, Last verified.
 - `docs/templates/` is excluded by MkDocs by default; `exclude_docs: !/templates/` re-includes it. Keep it.
+- UI text (button captions, menu items, email subjects): `code` font, not bold.
 - Audience uses Windows only. Write Windows steps; no Mac/Linux tabs.
 - Only enabled markdown extensions work (see `mkdocs.yml`); e.g. no `pymdownx.keys`.
 

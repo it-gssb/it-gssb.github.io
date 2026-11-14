@@ -26,31 +26,31 @@ something does, see [Troubleshooting](#troubleshooting).
     1. Go to [office.com](https://www.office.com/).
     2. Sign in with the **email address** and **email password** from the
        slip.
-    3. Open **Outlook**.
-3. **Confirm your Lingco account.** You have to click **Confirm email**
+    3. Open `Outlook`.
+3. **Confirm your Lingco account.** You have to click `Confirm email`
    twice, in two different emails.
-    1. Find the email with the subject **Confirm email address** and click
-       **Confirm email**.
+    1. Find the email with the subject `Confirm email address` and click
+       `Confirm email`.
     2. A new tab opens and says it sent you a new confirmation email.
        Go back to the Outlook tab.
     3. Wait for the new email with the same subject, then click
-       **Confirm email** in it.
+       `Confirm email` in it.
     4. Your Lingco account is now confirmed.
 4. **Join the course.** In the tab that opened, click the big blue
-   **Join course** button.
-    - No **Join course** button? Go to
+   `Join course` button.
+    - No `Join course` button? Go to
       [class.lingco.io](https://class.lingco.io/) and sign in with your
       email address and the **Lingco password** from the slip.
-5. **Fill out the questionnaire.** Click **Start questionnaire**, near the
+5. **Fill out the questionnaire.** Click `Start questionnaire`, near the
    bottom right, then answer all the questions.
 6. **Start the practice test.**
-    1. Click **Dashboard** in the menu on the left.
-    2. Near where you found **Start questionnaire**, click the button to
+    1. Click `Dashboard` in the menu on the left.
+    2. Near where you found `Start questionnaire`, click the button to
        start the practice test.
 
 ## Troubleshooting
 
-??? question "No **Join course** button after confirming the account"
+??? question "No `Join course` button after confirming the account"
 
     Go to [class.lingco.io](https://class.lingco.io/) and sign in with your
     `student.gssb.org` email address and the **Lingco password** from the
