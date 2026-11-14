@@ -72,7 +72,7 @@ something does, see [Troubleshooting](#troubleshooting).
     the IT team to reset the email password back to the one on the slip,
     then sign in again.
 
-??? question "\"You can't access this resource\" when signing in to Office"
+??? question "“You can't access this resource” when signing in to Office"
 
     1. On another computer (for example, a GSSB Chromebook), do steps 4
        and 5 with the student's slip: sign in to Outlook and confirm the
