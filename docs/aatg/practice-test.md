@@ -97,6 +97,13 @@ something does, see [Troubleshooting](#troubleshooting).
     `student.gssb.org` email address and the **Lingco password** from the
     slip (not the email password).
 
+??? question "Student can't sign in to Lingco (password doesn't work)"
+
+    1. Check that the student is using the **Lingco password** from the
+       slip, not the email password.
+    2. Still not working? Type the Lingco password again, but leave out
+       `gssb` at the start.
+
 ??? question "No audio"
 
     Test audio as early as possible so there's time to fix it.
