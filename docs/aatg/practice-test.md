@@ -2,17 +2,21 @@
 
 ## Purpose
 
-How a student goes from a paper password slip to starting the AATG
-practice test on Lingco. These steps assume nothing goes wrong. If
-something does, see [Troubleshooting](#troubleshooting).
+Describes the first 15 minutes of the AATG practice test, from getting the
+password slip to starting the test. For some students the standard steps
+won't work. IT helpers will be in the room, and the
+[Troubleshooting](#troubleshooting) section covers the common problems.
+
+The steps are written for students. The troubleshooting section is for
+teachers and IT helpers.
 
 ## Prerequisites
 
 - The student is already registered with Lingco. See
   [Exam registration](index.md).
 - The student brings their own:
-    - Laptop (Windows, Mac, or Chromebook) with a recent Chrome, Firefox,
-      or Safari browser. No VPN.
+    - Laptop (Windows, Mac, or Chromebook) with a recent Chrome, Edge,
+      Firefox, or Safari browser (Chrome works best). No VPN.
     - Headphones or headset.
 - The teacher brings the paper slips, one per student. Each slip has the
   student's `student.gssb.org` email address, email password, and Lingco
@@ -22,13 +26,14 @@ something does, see [Troubleshooting](#troubleshooting).
 
 1. **Get your paper slip** with your passwords from the teacher.
 2. **Get your laptop ready**, before anything else. If something here
-   doesn't work, tell a teacher right away; see
-   [Troubleshooting](#troubleshooting).
+   doesn't work, tell a teacher or IT helper right away.
     1. **Test your audio.** Plug in your headset and play any sound or
        video.
     2. **Turn off translation tools.** Google Translate, translation
        browser extensions, and built-in browser translation can trigger
-       Lingco's anti-cheat protection and **get you disqualified**.
+       Lingco's anti-cheat protection and **get you disqualified**. See
+       "Translation tool is on" under
+       [Troubleshooting](#troubleshooting).
 3. **Open your school email.**
     1. Go to [office.com](https://www.office.com/).
     2. Sign in with the **email address** and **email password** from the
@@ -46,11 +51,11 @@ something does, see [Troubleshooting](#troubleshooting).
     3. Wait for the new email with the same subject, then click
        `Confirm email` in it.
     4. Your Lingco account is now confirmed.
-5. **Join the course.** In the tab that opened, click the big blue
-   `Join course` button.
-    - No `Join course` button? Go to
-      [class.lingco.io](https://class.lingco.io/) and sign in with your
-      email address and the **Lingco password** from the slip.
+5. **Join the course.** In the tab that opened when you clicked
+   `Confirm email` the second time, click the big blue `Join course`
+   button.
+    - No `Join course` button? See "No `Join course` button" under
+      [Troubleshooting](#troubleshooting).
 6. **Fill out the questionnaire.** Click `Start questionnaire`, near the
    bottom right, then answer all the questions.
 7. **Start the practice test.**
@@ -88,9 +93,9 @@ something does, see [Troubleshooting](#troubleshooting).
 
 ??? question "No `Join course` button after confirming the account"
 
-    Go to [class.lingco.io](https://class.lingco.io/) and sign in with your
-    `student.gssb.org` email address and the **Lingco password** from the
-    slip (not the email password).
+    Have the student go to [class.lingco.io](https://class.lingco.io/) and
+    sign in with their `student.gssb.org` email address and the **Lingco
+    password** from the slip (not the email password).
 
 ??? question "Student can't sign in to Lingco (password doesn't work)"
 
@@ -106,7 +111,7 @@ something does, see [Troubleshooting](#troubleshooting).
     1. Try a GSSB headset.
     2. Still no audio? Move the student to a GSSB laptop.
 
-??? question "Turn off translation tools"
+??? question "Translation tool is on"
 
     Translation tools can trigger anti-cheat protection and disqualify the
     student.
@@ -135,7 +140,8 @@ something does, see [Troubleshooting](#troubleshooting).
 
 ??? question "Browser is too old or not supported"
 
-    Lingco needs a recent version of Chrome, Firefox, or Safari.
+    Lingco needs a recent version of Chrome, Edge, Firefox, or Safari.
+    Chrome works best.
 
     1. Check whether another supported browser is already installed on the
        computer, and use that.
@@ -169,5 +175,4 @@ the IT volunteers' channel.
 
 ## Last verified
 
-Not yet verified (written from the IT team's description of the 2026
-practice test).
+2026-11-14, by Jöran.

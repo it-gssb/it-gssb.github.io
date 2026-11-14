@@ -52,4 +52,4 @@ or phone number).
 
 ## Last verified
 
-YYYY-MM-DD, by *team or role*.
+YYYY-MM-DD, by *your first name*.

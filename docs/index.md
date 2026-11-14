@@ -29,7 +29,9 @@ done it before.
 
     - Passwords, PINs, API keys, recovery codes, or Wi-Fi keys
     - Personal data about students, parents, or staff (names, emails, phone
-      numbers, addresses, photos, grades, account details…)
+      numbers, addresses, photos, grades, account details…). The one
+      exception: under *Last verified*, you can sign with your own first
+      name.
     - Internal IP addresses, serial numbers, license keys, or anything else
       that would help someone attack our systems
 
