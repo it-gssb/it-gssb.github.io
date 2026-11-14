@@ -27,12 +27,15 @@ something does, see [Troubleshooting](#troubleshooting).
     2. Sign in with the **email address** and **email password** from the
        slip.
     3. Open `Outlook`.
-3. **Confirm your Lingco account.** You have to click `Confirm email`
-   twice, in two different emails.
-    1. Find the email with the subject `Confirm email address` and click
-       `Confirm email`.
-    2. A new tab opens and says it sent you a new confirmation email.
-       Go back to the Outlook tab.
+3. **Confirm your Lingco account.** Your Lingco account isn't created
+   until you do this. You usually have to click `Confirm email` twice, in
+   two different emails.
+    1. Lingco sent you two emails: one to confirm your account and one
+       inviting you to the practice test. Open the one with the subject
+       `Confirm email address` and click `Confirm email`.
+    2. That link has usually expired by now. A new tab opens and says
+       Lingco sent you a new confirmation email. Go back to the Outlook
+       tab.
     3. Wait for the new email with the same subject, then click
        `Confirm email` in it.
     4. Your Lingco account is now confirmed.
