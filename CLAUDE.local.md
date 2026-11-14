@@ -1,1 +1,0 @@
-never ask to commit/push changes
