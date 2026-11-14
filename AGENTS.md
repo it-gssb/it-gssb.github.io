@@ -17,7 +17,7 @@ MkDocs Material docs site → https://it-gssb.github.io/ (GitHub Pages, deployed
 - How-tos follow `templates/how-to-template.md`: Purpose, Prerequisites, Steps, Troubleshooting, Owner, Last verified.
 - `docs/templates/` is excluded by MkDocs by default; `exclude_docs: !/templates/` re-includes it. Keep it.
 - UI text (button captions, menu items, email subjects): `code` font, not bold.
-- Audience uses Windows only. Write Windows steps; no Mac/Linux tabs.
+- Audience uses Windows only. Write Windows steps; no Mac/Linux tabs. Exception: student laptops (`aatg/practice-test.md`) may be Windows, Mac, or Chromebook; keep steps browser-based.
 - Only enabled markdown extensions work (see `mkdocs.yml`); e.g. no `pymdownx.keys`.
 
 ## Build
