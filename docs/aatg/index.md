@@ -41,7 +41,9 @@ flowchart LR
 4. **Students confirm.** Each student gets an email at their
    `student.gssb.org` address and clicks the confirmation link.
 5. **Students log in** with their `student.gssb.org` email and the
-   password from step 2.
+   password from step 2. See
+   [Take the AATG practice test](practice-test.md) for the steps a
+   student follows.
 
 The script lives in the
 [AATGRegistration](https://github.com/it-gssb/AATGRegistration) repository.
