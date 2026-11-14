@@ -71,6 +71,7 @@ nav:
       - Printer: common-issues/printer.md
   - AATG:
       - Exam registration: aatg/index.md
+      - Practice test: aatg/practice-test.md
   - IT scripts:
       - it-scripts/index.md
       - sycamore: it-scripts/sycamore.md
