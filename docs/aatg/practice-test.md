@@ -10,9 +10,13 @@ something does, see [Troubleshooting](#troubleshooting).
 
 - The student is already registered with Lingco. See
   [Exam registration](index.md).
-- A Windows computer with a web browser and internet access.
-- The student's paper slip. It has their `student.gssb.org` email address,
-  their email password, and their Lingco password.
+- The student brings their own:
+    - Laptop (Windows, Mac, or Chromebook) with a recent Chrome, Firefox,
+      or Safari browser. No VPN.
+    - Headphones or headset.
+- The teacher brings the paper slips, one per student. Each slip has the
+  student's `student.gssb.org` email address, email password, and Lingco
+  password.
 
 !!! danger "Password slips are personal data"
 
@@ -28,7 +32,7 @@ something does, see [Troubleshooting](#troubleshooting).
 
 ## Steps
 
-1. **Get the paper slip** with your passwords.
+1. **Get your paper slip** with your passwords from the teacher.
 2. **Test your audio now**, before anything else. Plug in your headset and
    play any sound or video. If you can't hear it, tell a teacher right away;
    see [Troubleshooting](#troubleshooting).
@@ -87,9 +91,10 @@ something does, see [Troubleshooting](#troubleshooting).
 
     1. Close all browser tabs and windows, then open the browser again and
        start at [office.com](https://www.office.com/).
-    2. Still stuck? Do the Office sign-in in a private window: in Chrome,
-       press `Ctrl+Shift+N` (`Incognito`); in Edge, press `Ctrl+Shift+N`
-       (`InPrivate`).
+    2. Still stuck? Do the Office sign-in in a private window
+       (`Incognito` in Chrome, `InPrivate` in Edge, `Private Window` in
+       Safari). Press `Ctrl+Shift+N` (Windows, Chromebook) or
+       `Cmd+Shift+N` (Mac).
 
 ??? question "No `Join course` button after confirming the account"
 
@@ -153,6 +158,16 @@ something does, see [Troubleshooting](#troubleshooting).
     principal can reset that part of the test from the Lingco
     administrator account. Tell the principal the student's name and which
     part of the test to reset.
+
+??? question "Student's laptop has a VPN turned on"
+
+    Students can't use a VPN for the practice test.
+
+    1. Turn off the VPN in its app. Look for its icon in the taskbar
+       (Windows), the menu bar (Mac), or the status area (Chromebook).
+    2. Turn off any VPN extension in the browser's `Extensions`.
+    3. Can't turn it off (for example, a work laptop)? Give the student a
+       GSSB Chromebook.
 
 <!-- TODO: add other problems from practice-test day as they come up. -->
 
