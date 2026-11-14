@@ -18,33 +18,23 @@ something does, see [Troubleshooting](#troubleshooting).
   student's `student.gssb.org` email address, email password, and Lingco
   password.
 
-!!! danger "Password slips are personal data"
-
-    Hand each slip only to its own student. Never photograph the slips or
-    type the passwords into a shared chat.
-
-!!! warning "Turn off translation tools"
-
-    Google Translate and other translation tools (browser extensions,
-    built-in browser translation) can trigger Lingco's anti-cheat protection
-    and **disqualify the student**. Remind every student to turn them off
-    before starting. See [Troubleshooting](#troubleshooting).
-
 ## Steps
 
 1. **Get your paper slip** with your passwords from the teacher.
-2. **Test your audio now**, before anything else. Plug in your headset and
-   play any sound or video. If you can't hear it, tell a teacher right away;
-   see [Troubleshooting](#troubleshooting).
-3. **Turn off translation tools.** Google Translate or any other translation
-   tool can get you disqualified. See
+2. **Get your laptop ready**, before anything else. If something here
+   doesn't work, tell a teacher right away; see
    [Troubleshooting](#troubleshooting).
-4. **Open your school email.**
+    1. **Test your audio.** Plug in your headset and play any sound or
+       video.
+    2. **Turn off translation tools.** Google Translate, translation
+       browser extensions, and built-in browser translation can trigger
+       Lingco's anti-cheat protection and **get you disqualified**.
+3. **Open your school email.**
     1. Go to [office.com](https://www.office.com/).
     2. Sign in with the **email address** and **email password** from the
        slip.
     3. Open `Outlook`.
-5. **Confirm your Lingco account.** Your Lingco account isn't created
+4. **Confirm your Lingco account.** Your Lingco account isn't created
    until you do this. You usually have to click `Confirm email` twice, in
    two different emails.
     1. Lingco sent you two emails: one to confirm your account and one
@@ -56,14 +46,14 @@ something does, see [Troubleshooting](#troubleshooting).
     3. Wait for the new email with the same subject, then click
        `Confirm email` in it.
     4. Your Lingco account is now confirmed.
-6. **Join the course.** In the tab that opened, click the big blue
+5. **Join the course.** In the tab that opened, click the big blue
    `Join course` button.
     - No `Join course` button? Go to
       [class.lingco.io](https://class.lingco.io/) and sign in with your
       email address and the **Lingco password** from the slip.
-7. **Fill out the questionnaire.** Click `Start questionnaire`, near the
+6. **Fill out the questionnaire.** Click `Start questionnaire`, near the
    bottom right, then answer all the questions.
-8. **Start the practice test.**
+7. **Start the practice test.**
     1. Click `Dashboard` in the menu on the left.
     2. Near where you found `Start questionnaire`, click the button to
        start the practice test.
@@ -78,8 +68,8 @@ something does, see [Troubleshooting](#troubleshooting).
 
 ??? question "“You can't access this resource” when signing in to Office"
 
-    1. On another computer (for example, a GSSB Chromebook), do steps 4
-       and 5 with the student's slip: sign in to Outlook and confirm the
+    1. On another computer (for example, a GSSB Chromebook), do steps 3
+       and 4 with the student's slip: sign in to Outlook and confirm the
        Lingco account.
     2. Sign out of Outlook on that computer.
     3. On the student's computer, go to
