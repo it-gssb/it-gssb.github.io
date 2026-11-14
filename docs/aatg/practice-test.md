@@ -19,15 +19,28 @@ something does, see [Troubleshooting](#troubleshooting).
     Hand each slip only to its own student. Never photograph the slips or
     type the passwords into a shared chat.
 
+!!! warning "Turn off translation tools"
+
+    Google Translate and other translation tools (browser extensions,
+    built-in browser translation) can trigger Lingco's anti-cheat protection
+    and **disqualify the student**. Remind every student to turn them off
+    before starting. See [Troubleshooting](#troubleshooting).
+
 ## Steps
 
 1. **Get the paper slip** with your passwords.
-2. **Open your school email.**
+2. **Test your audio now**, before anything else. Plug in your headset and
+   play any sound or video. If you can't hear it, tell a teacher right away;
+   see [Troubleshooting](#troubleshooting).
+3. **Turn off translation tools.** Google Translate or any other translation
+   tool can get you disqualified. See
+   [Troubleshooting](#troubleshooting).
+4. **Open your school email.**
     1. Go to [office.com](https://www.office.com/).
     2. Sign in with the **email address** and **email password** from the
        slip.
     3. Open `Outlook`.
-3. **Confirm your Lingco account.** Your Lingco account isn't created
+5. **Confirm your Lingco account.** Your Lingco account isn't created
    until you do this. You usually have to click `Confirm email` twice, in
    two different emails.
     1. Lingco sent you two emails: one to confirm your account and one
@@ -39,14 +52,14 @@ something does, see [Troubleshooting](#troubleshooting).
     3. Wait for the new email with the same subject, then click
        `Confirm email` in it.
     4. Your Lingco account is now confirmed.
-4. **Join the course.** In the tab that opened, click the big blue
+6. **Join the course.** In the tab that opened, click the big blue
    `Join course` button.
     - No `Join course` button? Go to
       [class.lingco.io](https://class.lingco.io/) and sign in with your
       email address and the **Lingco password** from the slip.
-5. **Fill out the questionnaire.** Click `Start questionnaire`, near the
+7. **Fill out the questionnaire.** Click `Start questionnaire`, near the
    bottom right, then answer all the questions.
-6. **Start the practice test.**
+8. **Start the practice test.**
     1. Click `Dashboard` in the menu on the left.
     2. Near where you found `Start questionnaire`, click the button to
        start the practice test.
@@ -58,6 +71,26 @@ something does, see [Troubleshooting](#troubleshooting).
     Go to [class.lingco.io](https://class.lingco.io/) and sign in with your
     `student.gssb.org` email address and the **Lingco password** from the
     slip (not the email password).
+
+??? question "No audio"
+
+    Test audio as early as possible so there's time to fix it.
+
+    1. Try a GSSB headset.
+    2. Still no audio? Move the student to a GSSB laptop.
+
+??? question "Turn off translation tools"
+
+    Translation tools can trigger anti-cheat protection and disqualify the
+    student.
+
+    - **Chrome:** open `Settings` > `Languages` and turn off
+      `Use Google Translate`.
+    - **Edge:** open `Settings` > `Languages` and turn off
+      `Offer to translate pages that aren't in a language I read`.
+    - **Extensions:** turn off any translation extension (for example,
+      Google Translate) in `Extensions`.
+    - Close any translation app or website.
 
 <!-- TODO: add other problems from practice-test day as they come up. -->
 
